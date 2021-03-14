@@ -1,0 +1,3 @@
+# configure support for using DVD menus and chapters, for DVD discs and ISOs
+enable_dvd_support: false
+

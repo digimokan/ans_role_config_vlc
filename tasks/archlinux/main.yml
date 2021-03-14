@@ -1,0 +1,23 @@
+- name: "Install 'vlc' package"
+  community.general.pacman:
+    name: vlc
+    state: present
+  become: true
+  become_user: root
+
+- name: "Enable vlc DVD menu, chapter, and decryption support"
+  block:
+    - name: "Install 'libdvdnav' package, for DVD menu and chapter support"
+      community.general.pacman:
+        name: libdvdnav
+        state: present
+        extra_args: "--asdeps"
+    - name: "Install 'libdvdcss' package, for DVD decryption support"
+      community.general.pacman:
+        name: libdvdcss
+        state: present
+        extra_args: "--asdeps"
+  become: true
+  become_user: root
+  when: enable_dvd_support
+
