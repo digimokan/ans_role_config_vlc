@@ -5,3 +5,6 @@
   become: true
   become_user: root
 
+# NOTE: libdvdnav and libdvdread are installed with main vlc package
+#       ...uncertain whether libdvdcss is included with these packages
+
