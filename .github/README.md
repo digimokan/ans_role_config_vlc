@@ -21,6 +21,7 @@ Install and configure VLC video player.
 ## Supported Operating Systems
 
 * Arch Linux.
+* FreeBSD.
 
 ## Quick Start
 
