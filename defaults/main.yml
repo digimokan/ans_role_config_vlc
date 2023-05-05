@@ -1,3 +1,6 @@
 # configure support for using DVD menus and chapters, for DVD discs and ISOs
 enable_dvd_support: false
 
+# command to execute to start vlc
+vlc_main_cmd: 'vlc'
+
