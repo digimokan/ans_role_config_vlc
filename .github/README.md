@@ -52,7 +52,7 @@ Install and configure VLC video player.
        - name: "Install and configure the VLC video player"
          ansible.builtin.include_role:
            name: ans_role_config_vlc
-           public: yes
+           public: true
    ```
 
 ## Role Options
