@@ -19,5 +19,5 @@
         extra_args: "--asdeps"
   become: true
   become_user: root
-  when: enable_dvd_support
+  when: vlc_enable_dvd_support
 

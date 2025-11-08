@@ -57,9 +57,15 @@ Install and configure VLC video player.
 
 ## Role Options
 
-See the role `defaults` file, for overridable vars:
+## Role Options
 
-  * [defaults/main.yml](../defaults/main.yml)
+Vars with default values, which can be overridden in the playbook:
+
+  * [overridable](../defaults/main/overridable/main.yml)
+
+Vars defined by this role, exported with `public: true`, for use in other roles:
+
+  * [export](../defaults/main/export/main.yml)
 
 ## Contributing
 

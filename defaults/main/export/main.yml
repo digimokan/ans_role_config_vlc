@@ -1,0 +1,3 @@
+# command to execute to start vlc
+vlc_main_cmd: 'vlc'
+

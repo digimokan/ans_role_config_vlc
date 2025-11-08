@@ -1,0 +1,3 @@
+# configure support for using DVD menus and chapters, for DVD discs and ISOs
+vlc_enable_dvd_support: false
+
