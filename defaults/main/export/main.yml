@@ -1,3 +1,6 @@
 # command to execute to start vlc
 vlc_main_cmd: 'vlc'
 
+# command to execute to open mutiple file in single vlc instance, in playlist
+vlc_open_multiple_in_playlist_cmd: 'vlc --one-instance --playlist-enqueue'
+
